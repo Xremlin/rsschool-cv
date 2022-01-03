@@ -1,1 +1,154 @@
+html {
+    scroll-behavior: smooth; 
+  }
+@font-face {
+    font-family: Roboto-Regular;
+     src: url("assets/fonts/Roboto-Regular.ttf");
+   }
+* {
+    box-sizing: border-box;
+  }
+a:link {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    transition: 0.5s;
+    cursor: pointer;
+}
+a:visited {
+    color: rgb(216, 184, 124);
+}
+a:hover {
+    color: #cabeb2;
+    text-decoration: underline;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+body {
+     margin: 0;
+     font-family: 'Roboto-Regular', sans-serif;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     }
+header {
+     background: #5d5557;
+     height: 10vh;
+       }
+    .nav-item {
+        display: inline-block;
+        margin: 0 10px;
+       }
+main {
+     background: #b18f6e;
+     min-height: 80vh;
+     }
+    .picture-and-text {
+        min-height: 350px;
 
+        display: flex;
+        border-bottom: 20px solid 	#705B46;
+        margin-bottom: 50px;
+        }
+         .myphoto {
+             padding: 5px 5px 5px 120px;
+             }
+         .myname {
+             padding-top: 90px;
+             flex-grow: 1;
+             text-align: center;
+             justify-content: center;
+             }    
+    .contacts-and-summary {
+        min-height: 150px;
+        display: flex;
+        }
+         .contacts {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid  #705B46;
+             margin-right: 80px;
+         }
+         .summary {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid 	#705B46;
+         }
+     .skills-and-code {
+         min-height: 150px;
+         display: flex;
+     }
+         .skills {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid 	#705B46;
+             margin-right: 80px;
+         }
+         .code {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid #705B46;
+         }
+     .project-education {
+         min-height: 150px;
+         display: flex;
+     }
+         .projects {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid 	#705B46;
+             margin-right: 80px;
+         }
+         .education {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+             border-bottom: 5px solid 	#705B46;
+         }
+     .english-and-freespace {
+         min-height: 150px;
+         display: flex;
+         margin-bottom: 30px;
+     }
+         .english {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+         }
+         .freespace {
+             width: 50%;
+             flex-grow: 1;
+             padding: 20px;
+         }
+footer {
+     background: #5d5557;
+     height: 10vh;
+       }
+    .year-and-rsschool {
+        display: flex;
+        height: 10vh;
+    }
+         .year {
+             height: 10vh;
+             padding-left: 20px;
+             padding-right: 10px;
+             }
+         .xrm {
+             padding-top: 12px;
+             flex-grow: 1;
+         }    
+         .rsschool {
+
+             flex-grow: 0.1;
+             margin-left: 30px;
+             padding-right: 30px;
+             width: 85px;
+             }
+             
